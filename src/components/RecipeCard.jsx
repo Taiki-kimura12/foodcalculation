@@ -39,7 +39,6 @@ function RecipeCard({ recipe, inventory, completeRecipe }) {
       <div className="recipe-header">
         <div>
           <h3 className="recipe-title">{recipe.name}</h3>
-          <div className="recipe-meta">👥 {recipe.servings}人前 | ⏱️ {recipe.prepTime}分</div>
         </div>
         {statusBadge}
       </div>
